@@ -2,6 +2,8 @@
 #star* means anything
 
 *.html
+ladybirds.csv
+limpet.csv
 
 # History files
 .Rhistory
