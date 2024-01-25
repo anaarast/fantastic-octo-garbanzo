@@ -1,7 +1,7 @@
 *.pdf 
 #star* means anything
 
-
+*.html
 
 # History files
 .Rhistory
