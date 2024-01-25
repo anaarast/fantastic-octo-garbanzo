@@ -1,3 +1,8 @@
+*.pdf 
+#star* means anything
+
+
+
 # History files
 .Rhistory
 .Rapp.history
