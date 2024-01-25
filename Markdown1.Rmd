@@ -1,0 +1,14 @@
+---
+title: "Markdown1"
+output: html_document
+date: "2024-01-25"
+---
+
+```{r}
+
+#read in data
+
+ladybirds <- ("fantastic-octo-garbanzo/ladybirds.csv")
+
+
+```
