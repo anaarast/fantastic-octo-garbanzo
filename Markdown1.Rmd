@@ -4,7 +4,7 @@ output: html_document
 date: "2024-01-25"
 ---
 
-```{r, echo = FALSE, eval=TRUE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 
 #load libraries
 
