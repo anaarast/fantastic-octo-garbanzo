@@ -4,6 +4,8 @@ output: html_document
 date: "2024-01-25"
 ---
 
+# This is my first attempt to use Rmarkdown
+
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 
 #load libraries
@@ -15,7 +17,6 @@ library(tidyverse)
 #read in your data
 
 daphnia <- read.csv("Daphniagrowth.csv")
-glimpse(daphnia)
 
 #make a scatterplot
 
