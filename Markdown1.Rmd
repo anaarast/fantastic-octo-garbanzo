@@ -1,14 +1,35 @@
 ---
-title: "Markdown1"
+title: "MyMarkDown"
 output: html_document
 date: "2024-01-25"
 ---
 
-```{r}
+```{r, echo = FALSE, eval=TRUE}
 
-#read in data
+#load libraries
 
-ladybirds <- ("fantastic-octo-garbanzo/ladybirds.csv")
+library(ggplot2) #plotting
+library(dplyr) #data manipulation
+library(tidyverse)
+
+#read in your data
+
+daphnia <- read.csv("Daphniagrowth.csv")
+glimpse(daphnia)
+
+#make a scatterplot
+
+ggplot(daphnia, aes(x = parasite, y = growth.rate, fill=parasite)) +
+  geom_boxplot()+
+  theme_bw()+
+  theme(legend.position="none")+
+  coord_flip()+ #flip axes
+  labs(title = "Daphnia vs parasites")+
+  labs(x = "")+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+ #remove the grid lines
+  theme(axis.text.y = element_text(size = 10, face="italic"))+
+  theme(title = element_text(face="bold"))+
+  theme(plot.title = element_text(hjust = 0.5))
 
 
 ```
