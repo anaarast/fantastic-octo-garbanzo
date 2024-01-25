@@ -1,0 +1,38 @@
+---
+title: "My first Rmarkdown"
+output: html_document
+date: "2024-01-25"
+---
+
+
+#My first project
+##I love snakes
+###but I love geckos more
+![rug]
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+ 
+
+
+```{r}
+#make new data
+x <- rnorm(100, 0, 1)
+y <- rnorm(100, 2, 3)
+
+#echofalse hides the code
+#eval - do you want to run the code
+
+plot(x ~ y)
+
+
+```
+
+
+
+
+
+
