@@ -6,4 +6,5 @@ Quanti anni hai?
 
   Piacere?
 
-Ola, tudo bem?
+Ola, tudo legal? 
+  
